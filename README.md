@@ -1,5 +1,9 @@
 Just having fun trying to make a CSS-only Tab.
 
+![](pics/css-tab.png)
+
+
+
 ## LICENSE
 
 The MIT License
