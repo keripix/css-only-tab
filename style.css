@@ -32,9 +32,11 @@
   text-align: center;
   line-height: 1.6em;
   
-  border-top: 1px solid blue;
-  border-left: 1px solid blue;
-  border-right: 1px solid blue;
+  border-top: 1px solid #888888;
+  border-left: 1px solid #888888;
+  border-right: 1px solid #888888;
+
+  background-color: #BBBBBB;
 }
 
 .tab-title:hover {
@@ -46,7 +48,7 @@
 #tab-two:target .tab-title,
 #tab-three:target .tab-title,
 #tab-four:target .tab-title {
-  background-color: yellow;
+  background-color: white;
 }
 
 #tab-one:target .tab-content,
