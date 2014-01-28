@@ -11,9 +11,12 @@
 
   display: none;
 
-  width: 100%;
+  width: 600px;
 
   min-height: 250px;
+
+  
+  border: 1px solid #888888;
 }
 
 .tab-content.first-active {
@@ -36,7 +39,7 @@
   border-left: 1px solid #888888;
   border-right: 1px solid #888888;
 
-  background-color: #CBCBCB;
+  background-color: #CBCBCB;  
 }
 
 .tab-title:hover {
