@@ -5,7 +5,7 @@
 .tab-content {
   position: absolute;
 
-  top: 20px;
+  top: 24px;
   left: 0;
   right: 0;
 
@@ -23,8 +23,14 @@
 
 .tab-title {
   color: blue;
-  width: 100px;  
+
+  width: 100px;
+  height: 24px;
+
   float: left;
+
+  text-align: center;
+  line-height: 1.6em;
   
   border-top: 1px solid blue;
   border-left: 1px solid blue;
@@ -36,10 +42,17 @@
   background-color: #ccc;
 }
 
-#tab-one:target,
-#tab-two:target,
-#tab-three:target,
-#tab-four:target {
+#tab-one:target .tab-title,
+#tab-two:target .tab-title,
+#tab-three:target .tab-title,
+#tab-four:target .tab-title {
+  background-color: yellow;
+}
+
+#tab-one:target .tab-content,
+#tab-two:target .tab-content,
+#tab-three:target .tab-content,
+#tab-four:target .tab-content {
   display: block;
   background-color: white;
 }
