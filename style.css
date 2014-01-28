@@ -1,0 +1,45 @@
+.tab-item {
+  position: relative;
+}
+
+.tab-content {
+  position: absolute;
+
+  top: 20px;
+  left: 0;
+  right: 0;
+
+  display: none;
+
+  width: 100%;
+
+  min-height: 250px;
+}
+
+.tab-content.first-active {
+  display: block;
+  background-color: white;
+}
+
+.tab-title {
+  color: blue;
+  width: 100px;  
+  float: left;
+  
+  border-top: 1px solid blue;
+  border-left: 1px solid blue;
+  border-right: 1px solid blue;
+}
+
+.tab-title:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+#tab-one:target,
+#tab-two:target,
+#tab-three:target,
+#tab-four:target {
+  display: block;
+  background-color: white;
+}
